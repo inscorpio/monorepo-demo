@@ -64,7 +64,7 @@ pnpm install typescript -w -D
 
 ### 安装局部依赖
 
-```json
+```shell
 pnpm install axios --filter @linyx/monorepo-demo-web
 pnpm install express --filter @linyx/monorepo-demo-server
 ```
@@ -73,7 +73,7 @@ pnpm install express --filter @linyx/monorepo-demo-server
 
 ### 安装项目内互相依赖
 
-```json
+```shell
 pnpm intall @linyx/monorepo-demo-utils --filter @linyx/monorepo-demo-web
 ```
 
