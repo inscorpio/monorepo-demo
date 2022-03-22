@@ -1,0 +1,17 @@
+{
+  "name": "@linyx/monorepo-demo-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@linyx/monorepo-demo-utils": "workspace:^1.0.0",
+    "axios": "^0.26.1"
+  }
+}
